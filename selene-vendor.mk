@@ -757,6 +757,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib/libaudiofmtconv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofmtconv.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libaudioloudc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioloudc.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioprimarydevicehalifclient.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaurisysdemo.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
@@ -838,6 +839,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswgamedap.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswvqe.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.dolby.hardware.dms@2.0.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     vendor/xiaomi/selene/proprietary/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
@@ -959,8 +961,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaalservice.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libabfadp.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libailab_hdr_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libailab_hdr_preview.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libalLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalLDC.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalhLDC.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libaltek_ldc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaltek_ldc_preview.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libanc_dc_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_dc_base.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libapusys_edma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys_edma.so \
@@ -1070,7 +1078,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libmi_asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_asd.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmi_bokehpre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_bokehpre.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libmi_videofilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmi_videofilter.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmialgoengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmialgoengine.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmibokeh_mt6873.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmibokeh_mt6873.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
@@ -1173,6 +1183,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
@@ -1191,6 +1203,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libwa_dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_dof.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libwa_rtdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_rtdof.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
