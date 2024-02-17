@@ -1349,5 +1349,5 @@ PRODUCT_PACKAGES += \
     gnss-mtk \
     gnss@2.1-service \
     manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_media_c2_V1_1_default \
+    manifest_media_c2_V1_2_default \
     manifest_vendor.dolby.hardware.dms
