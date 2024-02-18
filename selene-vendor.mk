@@ -1086,6 +1086,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnl.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
@@ -1199,6 +1200,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/selene/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libvideofilter_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideofilter_only.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/xiaomi/selene/proprietary/vendor/lib64/libwa_dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_dof.so \
